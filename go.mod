@@ -1,6 +1,6 @@
-module bookings-udemy
+module github.com/mikolertesx/golang-bookings
 
-go 1.15
+go 1.22.2
 
 require (
 	github.com/alexedwards/scs/v2 v2.8.0

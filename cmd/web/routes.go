@@ -1,9 +1,10 @@
 package main
 
 import (
-	"bookings-udemy/pkg/config"
-	"bookings-udemy/pkg/handlers"
 	"net/http"
+
+	"github.com/mikolertesx/golang-bookings/pkg/config"
+	"github.com/mikolertesx/golang-bookings/pkg/handlers"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"

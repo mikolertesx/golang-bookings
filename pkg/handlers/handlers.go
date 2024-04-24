@@ -1,10 +1,11 @@
 package handlers
 
 import (
-	"bookings-udemy/pkg/config"
-	"bookings-udemy/pkg/models"
-	"bookings-udemy/pkg/render"
 	"net/http"
+
+	"github.com/mikolertesx/golang-bookings/pkg/config"
+	"github.com/mikolertesx/golang-bookings/pkg/models"
+	"github.com/mikolertesx/golang-bookings/pkg/render"
 )
 
 // Repo the repository used by the handlers

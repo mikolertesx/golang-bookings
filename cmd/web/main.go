@@ -1,13 +1,14 @@
 package main
 
 import (
-	"bookings-udemy/pkg/config"
-	"bookings-udemy/pkg/handlers"
-	"bookings-udemy/pkg/render"
 	"fmt"
 	"log"
 	"net/http"
 	"time"
+
+	"github.com/mikolertesx/golang-bookings/pkg/config"
+	"github.com/mikolertesx/golang-bookings/pkg/handlers"
+	"github.com/mikolertesx/golang-bookings/pkg/render"
 
 	"github.com/alexedwards/scs/v2"
 )
